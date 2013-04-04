@@ -6,8 +6,8 @@ GitHub: @CraftyDeano
 Web: http://echoecho.es
 
 <ShamelessAdvertising>
-My 2nd iPhone app, Joke Shake, is available free on the app store for all devices!
-Grab it at www.jokeshake.com
+My 1st iPhone game, Number Tap, is available on the Apple App Store
+Grab it at www.numbertap.net
 </ShamelessAdvertising>
 ]]--
 
@@ -26,7 +26,7 @@ _H = display.contentHeight / 2
 function main()
 	if targetDevice == "iPad" or targetDevice == "iPad Simulator" then  
 		print "iPad"
-		splashBG = display.newImageRect("background_IPAD.png",763,1024)
+		splashBG = display.newImageRect("background_IPAD.png",768,1024)
 		splashBG.x = _W; splashBG.y = _H
 	else
 		if isTall == true then
